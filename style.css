@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background: #eee;
+}
+
+/* Hero Section */
+.hero_section{
+    width: 100%;
+    height: auto;
+}
+.hero_section .navigation{
+    width: 100%;
+    height: 4rem;
+    position: relative;
+}
+.hero_section .navigation ul{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+.hero_section .navigation ul li{
+    margin-left: 36px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    height: 100%;
+    line-height: 4rem;
+}
+.hero_section .navigation > ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.hero_section .navigation ul li:first-child{
+    margin-left: 20px;
+}
+.drop{
+    position: absolute;
+    width: 50rem;
+    top: 60px;
+    left: 0;
+    background-color: #000000;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.drop::before{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    width: 20px;
+    height: 20px;
+    left: 16.3rem;
+    top: -10px;
+    transform: rotate(45deg);
+}
+.drop li{
+    height: 100%;
+    padding:0px 10px;
+    overflow: hidden;
+}
+.drop li a{
+    color: #ffffff !important;
+}
+.logo img{
+    width: 90px;
+    margin-top: 10px;
+}
+.slider{
+    width: 100%;
+    height: auto;
+}
+.slider .slide_img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/* Hero Section */
+
+/* Shop Area */
+.shop_area{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.shop{
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px;
+    background-color: #ffffff;
+}
+.shop_area .shop .item{
+    overflow: hidden;
+    width: 19rem;
+    height: 27.7rem;
+    position: relative;
+}
+.shop_area .shop .item::before{
+    content: "";
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.949), rgba(0,0,0,0) 100%);
+    z-index: 9;
+}
+.shop_area .shop .item .shop_text{
+    width: 100%;
+    height: 18%;
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+}
+.shop_area .shop .item .shop_text a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Shop Area */
+
+/* Features Ads */
+.featured_ads{
+    width: 100%;
+    height: auto;
+}
+.featured_ads .ads_section{
+    width: 85%;
+    margin: auto;
+    height: 100%;
+}
+.featured_ads .ads_section .heading{
+    width: 100%;
+    height: 5rem;
+}
+.featured_ads .ads_section h2{
+    font-weight: 400;
+    line-height: 5rem;
+}
+.featured_ads .ads_section .ads .adver{
+    width: 33rem;
+    height: auto;
+}
+.featured_ads .ads_section .ads .adver .ad_img{
+    width: 100%;
+    height: 18rem;
+    overflow: hidden;
+}
+.featured_ads .ads_section .ads .adver .add_desc{
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+/* Features Ads */
+.holidays_section{
+    width: 100%;
+    height: auto;
+}
+.holidays{
+    width: 85%;
+    margin: auto;
+}
+.holidays .holiday_item{
+    height: auto;
+}
+.holidays .holiday_item .holiday{
+    width: 21.7rem;
+    height: 100%;
+}
+.holidays .holiday_item .holiday .holiday_image{
+    width: 100%;
+    height: 100%;
+}
+.holidays .holiday_item .holiday .holiday_desc{
+    text-align: center;
+}
+
+/* Latest News */
+.latest_section{
+    width: 100%;
+}
+/* Latest News */
+
+/* Footer */
+footer{
+    background-color: #ffffff;
+    padding: 3rem 6rem;
+}
+footer .footer_links .links{
+    margin-left: 1rem;
+}
+footer .footer_links .links a{
+    color: #000000;
+    text-decoration: none;
+}
+footer .social li{
+    margin-left: 0.7rem;
+}
+footer .social li a{
+    font-size: 1.5rem;
+    color: #000000;
+}
+#twitter:hover{
+    color: #1DA1F2;
+}
+#facebook:hover{
+    color: #4267B2;
+}
+#instagram:hover{
+    background: radial-gradient(circle at 33% 100%, rgba(251, 173, 80, 1) 4%, #f15245 30%,  rgba(188, 42, 141, 1) 62%, rgba(138, 58, 185, 1) 85%, rgba(76, 104, 215, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#youtube:hover{
+    color: #FF0000;
+}
+.pages_links .logo img{
+    width: 75px;
+}
+.pages_links .pages a{
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+}
+.pages_links .pages a:hover{
+    color: rgba(76, 104, 215, 1);
+}
+/* Footer */
+
+
+/* Shop Page Style */
+.shop_section{
+    width: 100%;
+    height: auto;
+}
+.shop_section .shop_area_section{
+    width: 100%;
+    height: 100%;
+}
+.shop_section .shop_area_section .lg_shop_area,.sm_shop_area{
+    width: 50%;
+    height: 40rem;
+}
+.shop_section .shop_area_section .sm_shop_area .shop_sm{
+    width: 100%;
+    height: 20rem;
+}
+
+/* Shop Page Style */
